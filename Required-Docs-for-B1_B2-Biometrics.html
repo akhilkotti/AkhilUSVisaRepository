@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biometrics Appointment Checklist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a6fc4, #0d47a1);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            border-left: 4px solid #1a6fc4;
+            padding-left: 20px;
+        }
+        
+        h2 {
+            color: #1a6fc4;
+            font-size: 22px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        h2:before {
+            content: "";
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: #1a6fc4;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .section-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #e0e0e0;
+        }
+        
+        .section-item:last-child {
+            border-bottom: none;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        
+        .note {
+            background-color: #e8f4fd;
+            border-left: 3px solid #1a6fc4;
+            padding: 10px 15px;
+            margin: 10px 0;
+            font-size: 14px;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .mandatory {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        .nested-list {
+            padding-left: 25px;
+            margin-top: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 14px;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 0;
+            }
+            
+            header {
+                padding: 20px 15px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .content {
+                padding: 20px 15px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            h3 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Biometrics Appointment Checklist</h1>
+            <p class="subtitle">Complete documentation guide for VAC appointment</p>
+        </header>
+        
+        <div class="content">
+            <div class="section">
+                <h2>1. VAC (Biometrics) Appointment</h2>
+                
+                <div class="section-item">
+                    <h3>a. Passport/s</h3>
+                    <ul>
+                        <li>Current Passport + (old passports if you have any), for all the applicants</li>
+                        <li><span class="mandatory">Mandatory</span></li>
+                    </ul>
+                </div>
+                
+                <div class="section-item">
+                    <h3>b. DS-160 Confirmation pages - (For Group application should carry DS-160 of all Applicants)</h3>
+                    <ul>
+                        <li>Carry the Printed copy</li>
+                        <li><span class="mandatory">Mandatory</span></li>
+                    </ul>
+                    <div class="note">
+                        <strong>Note:</strong> Make sure your DS-160 confirmation page gets stamped at the consulate and keep its safe as you need to carry this for Consular Interview.
+                    </div>
+                </div>
+                
+                <div class="section-item">
+                    <h3>c. Appointment Confirmation</h3>
+                    <ul>
+                        <li>Visa Interview Copy (showing VAC & Consulate schedule)</li>
+                        <li>Carry the Printed Copy</li>
+                        <li><span class="mandatory">Mandatory</span></li>
+                    </ul>
+                </div>
+                
+                <div class="section-item">
+                    <h3>d. MRV Fee Receipt</h3>
+                    <ul>
+                        <li>Carry the Printed Copy</li>
+                        <li><span class="mandatory">Optional, good to have</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Make sure to carry all required documents to avoid delays in your visa processing</p>
+        </footer>
+    </div>
+</body>
+</html>
